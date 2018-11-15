@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MicroService-Api" />
+        <module name="MicroService-Config" />
+        <module name="MicroService-Consumer" />
+        <module name="MicroService-Consumer-Feign" />
+        <module name="MicroService-Consumer-HystrixDashboard" />
+        <module name="MicroService-EuerkaServer-7001" />
+        <module name="MicroService-EuerkaServer-7002" />
+        <module name="MicroService-EuerkaServer-7003" />
+        <module name="MicroService-Producer-8001" />
+        <module name="MicroService-Producer-8002" />
+        <module name="MicroService-Producer-8003" />
+        <module name="MicroService-ProducerHystrix-8001" />
+        <module name="MicroService-Zuul-Gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MicroService" target="1.8" />
+      <module name="MicroService-Api" target="1.8" />
+      <module name="MicroService-Config" target="1.8" />
+      <module name="MicroService-Consumer" target="1.8" />
+      <module name="MicroService-Consumer-Feign" target="1.8" />
+      <module name="MicroService-Consumer-HystrixDashboard" target="1.8" />
+      <module name="MicroService-EuerkaServer-7001" target="1.8" />
+      <module name="MicroService-EuerkaServer-7002" target="1.8" />
+      <module name="MicroService-EuerkaServer-7003" target="1.8" />
+      <module name="MicroService-Producer-8001" target="1.8" />
+      <module name="MicroService-Producer-8002" target="1.8" />
+      <module name="MicroService-Producer-8003" target="1.8" />
+      <module name="MicroService-ProducerHystrix-8001" target="1.8" />
+      <module name="MicroService-Zuul-Gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

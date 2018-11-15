@@ -1,0 +1,23 @@
+server: 
+  port: 3344 
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://EurekaServer7001.com:7001/eureka/,http://EurekaServer7002.com:7002/eureka/,http://EurekaServer7003.com:7003/eureka/
+  instance:
+    instance-id: MicroService-Config-3344
+    prefer-ip-address: true     #访问路径可以显示IP地址
+spring:
+  application:
+    name:  MicroService-Config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xuyangliu/MicroService-Config.git   #GitHub上面的git仓库名字
+          username: xuyangliu99@gmail.com
+          password: lxy199699
+          search-paths: application
+      label: master
+ 
+
